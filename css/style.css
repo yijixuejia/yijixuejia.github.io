@@ -494,7 +494,7 @@ input:focus {
 
 #blocks {
 	background:#2e2a28;
-	padding:35px 0 0px
+	padding:30px 0 10px
 }
 
 .phone {
@@ -508,10 +508,10 @@ input:focus {
 
 .phone b{
 	display:block;
-	font-weight:500;
+	font-weight:300;
 	font-size:41px;
 	line-height:48px;
-	padding-bottom:0px;
+	padding-bottom:10px;
 	padding-top:0px;
 	padding-top:5px
 }
@@ -520,7 +520,6 @@ input:focus {
 ul.social{
 	margin:0;
 	padding:0;
-	margin-top:4px;
 	list-style:none
 }
 ul.social li{
@@ -1075,7 +1074,7 @@ address span {
 /*------ footer ------- */
 #footer {
 	background: #2e2a28;
-
+	height:75px;
 }
 
 
@@ -1162,8 +1161,7 @@ address span {
 		font-size:22px
 	}
 	.phone b {
-		font-size:38px;
-		font-weight:500;
+		font-size:38px
 	}
 	
 	h4 {
@@ -1236,8 +1234,7 @@ address span {
 		background-position:40px 82px
 	}
 	.phone b {
-		font-size:24px;
-		font-weight:500;
+		font-size:24px
 	}
 	.box {
 		width:118px
@@ -1667,6 +1664,5 @@ address span {
 	}
 
 }
-
 
 
