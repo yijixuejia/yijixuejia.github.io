@@ -545,7 +545,9 @@ ul.social li{
 	font-size:22px;
 	color:#2b2927;
 	font-weight:700;
+	background:#f55f3d;
 	margin-bottom:20px
+
 }
 
 .box:hover span{
@@ -585,31 +587,19 @@ ul.social li{
 }
 
 .banner_1 {
-	background:#b95a80;
-}
-.banner_1 a.more {
-	background:#bf785a;
+	background:#9936ea;
 }
 
 .banner_2 {
-	background:#45693a;
-}
-.banner_2 a.more {
-	background:#2b2927;
+	background:#e0435a;
 }
 
 .banner_3 {
-	background:#c0504e;
-}
-.banner_3 a.more {
-	background:#6a615f;
+	background:#45693a;
 }
 
 .banner_4 {
-	background:#466887;
-}
-.banner_4 a.more {
-	background:#584b4a;
+	background:#46489a;
 }
 
 
