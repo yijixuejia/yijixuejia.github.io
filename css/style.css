@@ -555,7 +555,7 @@ ul.social li img{
 
 ul.social li img:hover{
 
- -webkit-filter: brightness(2);
+ -webkit-filter: brightness(1);
 }
 
 /*--------------------------------------------------------------
@@ -563,4 +563,8 @@ ul.social li img:hover{
 --------------------------------------------------------------*/
 #footer p {
   font-size: 14px;
+}
+
+#footer h2 {
+  font-weight: 500;
 }
