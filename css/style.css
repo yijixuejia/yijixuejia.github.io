@@ -392,6 +392,9 @@ section {
 	margin: 10px 0;
 	padding: 10px 0;
 }
+.box span p{
+font-size: 12px;
+}
 
 /*--------------------------------------------------------------
 # Banners Section
