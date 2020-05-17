@@ -3,8 +3,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: Microsoft JhengHei, sans-serif;
-  color: #515151;
-  background:#f8f7f4;
+  color: #555;
+  background:#eee;
 }
 
 a:hover {
@@ -28,6 +28,22 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+@media (max-width: 992px) {
+  #header {
+  background-color: #ff6565;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  #header .logo {
+  padding: 10px;
+}
+  
+  #header .logo img {
+  max-height: 40px;
+}
+  
+}
+
 @media (min-width: 992px) {
 #header {
   transition: all 0.3s;
@@ -41,22 +57,6 @@ section {
 }
 
 #header .logo img {
-  max-height: 40px;
-}
-  
-}
-
-@media (max-width: 992px) {
-  #header {
-  background-color: #ff6565;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-  }
-  
-  #header .logo {
-  padding: 10px;
-}
-  
-  #header .logo img {
   max-height: 40px;
 }
   
@@ -445,7 +445,7 @@ section {
 --------------------------------------------------------------*/
 
 #content {
-	color:#444;
+	color:#555;
 }
 
 #content p {
@@ -492,7 +492,18 @@ a.read:hover {
 	border: 2px #ccc solid;
 	background: #fff;
 	padding: 3px;
-	margin-top: 5px
+	margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+.photo {
+	border: 2px #ccc solid;
+	background: #fff;
+	padding: 3px;
+	margin-top: 5px;
+	clear: both;
+}
+  
 }
 
 .alignleft{
