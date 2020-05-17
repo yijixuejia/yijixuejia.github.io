@@ -495,8 +495,9 @@ a.read:hover {
 	margin-top: 5px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 .photo {
+	display: block;
 	border: 2px #ccc solid;
 	background: #fff;
 	padding: 3px;
