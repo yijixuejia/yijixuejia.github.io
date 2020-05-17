@@ -205,7 +205,7 @@ section {
 # Slider Section
 --------------------------------------------------------------*/
 #slider {
-  background: rgba(0, 0, 0, 0.5);
+  background: #ff6565;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -493,7 +493,7 @@ a.read:hover {
 	border: 2px #ccc solid;
 	background: #fff;
 	padding: 3px;
-	width: 35%;
+	width: 40%;
 	margin-top: 5px;
 }
 
