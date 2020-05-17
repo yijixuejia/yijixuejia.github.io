@@ -97,7 +97,7 @@ section {
   transition: 0.3s;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav-menu li a span {
@@ -159,7 +159,7 @@ section {
   transition: 0.3s;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .mobile-nav li a span {
@@ -374,6 +374,7 @@ section {
 }
 
 .box  {
+	padding-top: 20px;
 	cursor: default;
 }
 
@@ -392,8 +393,17 @@ section {
 	margin: 10px 0;
 	padding: 10px 0;
 }
+
+.box:hover span{
+	color: #fff;
+}
+
 .box span p{
-font-size: 12px;
+    font-size: 10px;
+}
+
+.box:hover p{
+	color:#ff6565;
 }
 
 /*--------------------------------------------------------------
@@ -559,5 +569,5 @@ ul.social li img:hover{
 }
 
 #footer h2 {
-  font-weight: 500;
+  font-weight: 600;
 }
