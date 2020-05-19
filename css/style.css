@@ -3,9 +3,9 @@
 --------------------------------------------------------------*/
 body {
   background: url('../img/bg.jpg') no-repeat center fixed;
-  -web-background-size: cover;
-  -moz-background-size-cover;
-  background-size:cover;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   font-family: Microsoft JhengHei, sans-serif;
   color: #eee;
 }
@@ -41,11 +41,11 @@ h2 span{
   }
   
   #header .logo {
-  padding: 10px;
+  padding: 2vh;
 }
   
   #header .logo img {
-  max-height: 40px;
+  max-height: 6vh;
 }
   
 }
@@ -57,12 +57,14 @@ h2 span{
 
 #header .logo {
   background-color: #ff6565;
-  padding: 33.5px 45px;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3vh;
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 8vh;
 }
   
 }
@@ -90,7 +92,7 @@ h2 span{
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   border-left:1px #999 solid;
   padding: 0;
 }
@@ -98,16 +100,10 @@ h2 span{
 .nav-menu li a {
   display: block;
   position: relative;
-  padding: 30px 45px;
+  padding: 3vh 5vh;
+  height: 100%;
   color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.nav-menu li a span {
-	display: block;
-	font-size: 16px;
-	text-transform: none;
+  font-weight: 500;
 }
 
 .nav-menu li a:hover, 
@@ -120,12 +116,12 @@ h2 span{
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 2.5vh;
+  top: 2.5vh;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 4vh;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
@@ -137,7 +133,7 @@ h2 span{
 
 .mobile-nav {
   position: fixed;
-  top: 60px;
+  top: 10vh;
   left: 0;
   right: 0;
   bottom: auto;
@@ -158,17 +154,9 @@ h2 span{
 .mobile-nav li a {
   display: block;
   position: relative;
-  padding: 20px 60px;
+  padding: 3vh 5vh;
   transition: 0.3s;
   color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.mobile-nav li a span {
-	display: block;
-	font-size: 16px;
-	text-transform: none;
 }
 
 .mobile-nav li a:hover, 
@@ -208,7 +196,6 @@ h2 span{
 # Slider Section
 --------------------------------------------------------------*/
 #slider {
-  background: #ff6565;
   width: 100%;
   height: 100vh;
   overflow: hidden;
@@ -252,13 +239,6 @@ h2 span{
   text-shadow:2px 2px 10px #000;
 }
 
-#slider p {
-  -webkit-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-
 #slider .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
@@ -274,6 +254,7 @@ h2 span{
 #slider .carousel-inner .carousel-item-next.carousel-item-left,
 #slider .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
+  transition: 0.5s;
 }
 
 #slider .carousel-inner .carousel-item-next,
@@ -291,7 +272,7 @@ h2 span{
 
 @media (max-width: 992px) {
   #slider .carousel-control-prev, #slider .carousel-control-next {
-    top: 66px;
+    top: 60px;
   }
 }
 
@@ -368,16 +349,14 @@ h2 span{
   background: #333;
 }
 
-.code {
-	font-size: 24px;
-}
+
 .code span{
 	font-weight: 600;
 	color: #ff6565;
 }
 
 .box  {
-	padding-top: 20px;
+	padding-top: 10px;
 	cursor: default;
 }
 
@@ -399,10 +378,6 @@ h2 span{
 
 .box:hover span{
 	color: #fff;
-}
-
-.box span p{
-    font-size: 10px;
 }
 
 .box:hover p{
@@ -455,8 +430,9 @@ h2 span{
 #content p {
 	display: block;
 	padding-bottom: 5px;
-	font-size: 14px;
 }
+
+
 #content p strong {
 	display: block;
 	padding-bottom: 5px;
@@ -487,8 +463,6 @@ a.button:hover {
   clear: both;
   margin-top: 15px
 }
-
-
 
 /*--------------------------------------------------------------
 # Photo
@@ -549,11 +523,12 @@ a.button:hover {
 ul.social{
 	margin:0;
 	padding:0;
-	list-style:none
+	list-style:none;
 }
+
 ul.social li{
 	float:left;
-	margin-right:10px
+	margin-right:10px;
 }
 
 ul.social li img{
@@ -565,6 +540,15 @@ ul.social li img:hover{
  -webkit-filter: brightness(0.8);
 }
 
+#content ul.social li img{
+ -webkit-filter: brightness(0);
+}
+
+
+#content ul.social li img:hover{
+ -webkit-filter: brightness(0.2);
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -573,10 +557,6 @@ ul.social li img:hover{
   background: #333;
 }
 
-#footer p {
-  font-size: 14px;
-}
-
 #footer h2 {
-  font-weight: 600;
+  font-weight: 500;
 }
