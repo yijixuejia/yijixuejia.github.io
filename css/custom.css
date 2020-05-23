@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: Microsoft JhengHei, sans-serif;
-  color: #eee;
+  color: #fff;
 }
 
 h1 {
@@ -71,7 +71,7 @@ section {
   position: relative;
   white-space: nowrap;
   background-color: rgba(153, 230, 77, 0.8);
-  border-left: 1px #eee solid;
+  border-left: 1px #fff solid;
 }
 
 .nav-menu li a {
@@ -115,8 +115,15 @@ section {
   position: relative;
   white-space: nowrap;
   background-color: rgba(255, 255, 255, 0.1);
-}
+  }
   
+  .nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  background-color: rgba(153, 230, 77, 0.8);
+  border-left: 0px #fff solid;
+  border-top: 1px #fff solid;
+  }
 }
 
 /*--------------------------------------------------------------
