@@ -277,12 +277,12 @@ section {
 # Block Section
 --------------------------------------------------------------*/
 #block{
-  background-image: linear-gradient(to bottom, #f9d423, #ffff4d, #f9d423);
-  color: #ff4d40;
+  background-color: rgba(255, 77, 64, 0.8);
+  color: #fff;
 }
 
 .code span{
-  color: #228b22;
+  color: #333;
   font-weight: 600;
 }
 
@@ -299,7 +299,7 @@ section {
   -moz-border-radius: 30x;
   border-radius: 30px;
   text-align: center;
-  background: #228b22;
+  background: #555;
   font-size: 28px;
   color: #fff;
   font-weight: 600;
@@ -308,7 +308,7 @@ section {
 }
 
 .box p{
-  color: #228b22;
+  color: #333;
 }
 
 .box:hover span{
