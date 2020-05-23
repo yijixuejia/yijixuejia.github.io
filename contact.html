@@ -11,34 +11,47 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/icofont.min.css" rel="stylesheet">
 	<link href="css/animate.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
 </head>
 
-<body>
-  <!-- Header -->
-  <header id="header" class="fixed-top">
-    <div class="d-flex">
-	<a href="#" class="logo"><img src="img/logo.png" alt="醫濟學甲"></a>
-      <nav class="nav-menu d-none d-lg-block mr-auto">
-        <ul>
-          <li><a href="index.html"><h4>醫濟學甲</h4>愛從這裡開始</a></li>
-          <li><a href="1.html"><h4>地方故事</h4>認識台灣風情</a></li>
-          <li><a href="2.html"><h4>角落故事</h4>了解孩童困境</a></li>
-          <li><a href="3.html"><h4>人物專訪</h4>激盪更多想法</a></li>
-          <li class="active"><a href="contact.html"><h4>聯絡資訊</h4>加入援助計畫</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<body class="bg">
+
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md fixed-top d-flex">
+	<div class="logo"><img src="img/logo.png" alt="醫濟學甲"></div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-menu" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a href="index.html"><h4>醫濟學甲</h4>愛從這裡開始</a>
+        </li>
+        <li>
+          <a href="#"><h4>地方故事</h4>認識台灣風情</a>
+        </li>
+        <li>
+          <a href="#"><h4>角落故事</h4>了解孩童困境</a>
+        </li>
+		<li>
+          <a href="#"><h4>人物專訪</h4>激盪更多想法</a>
+        </li>
+		<li class="active">
+          <a href="contact.html"><h4>聯絡資訊</h4>加入援助計畫</a>
+        </li>
+      </ul>
+	</div>
+  </nav>
+</header>
 
 <!-- Block --> 
 	<section id="block" style="margin-top:35vh">
 		<div class="container">
 			<div class="row ">
-				<div class="col-md-12">
-					<h2>聯絡資訊<span>加入援助計畫</span></h2>
-				</div>
+			<div class="col-md-12">
+			<h2>聯絡我們<span>加入援助計畫</span></h2>
 			</div> 
 		</div>
 	</section>
@@ -57,7 +70,7 @@
 						</p>
 						<p>
 						<strong>歡迎加入LINE官方帳號</strong>
-						追蹤我們的Facebook、Instagram、YouTube
+						以及追蹤我們的Facebook、Instagram、YouTube頻道
 						</p>
 						
 						<ul class="social">
@@ -81,14 +94,15 @@
 							戶名：社團法人中華金龍醫濟學甲功德會
 						</p>
 						<p>
-						<strong>國泰世華銀行 (013) 中山分行</strong> 
+						<strong>國泰世華銀行 中山分行</strong> 
+							銀行代碼：013<br />
 							帳號：042-03-500842-4<br />
 							戶名：社團法人中華金龍醫濟學甲功德會
 						</strong>
 						</p>
-						<p><a href="https://forms.gle/4isfZQDr8xR43Hiz8" class="button" target="_blank">填單去！</a></p>
+						<p><a href="https://forms.gle/4isfZQDr8xR43Hiz8" class="more" target="_blank">填單去！</a></p>
 						
-						<p>※此表單僅用於核對匯款資料與開立收據</p>
+						<p>※此表單僅用於核對資料與開立收據</p>
 						
 					</div>
 			</div>
@@ -108,7 +122,7 @@
 				</div>
 			
 				<div class="col-md-6">
-					<h2>關於醫濟學甲</h2>
+					<h3>關於醫濟學甲</h3>
 					<p>
 						醫濟學甲是政府立案公益團體（立案字號：台內團字第1040001485號）<br>
 						「希望能夠幫助更多在台灣辛苦生活的弱勢家庭！」這個理念將我們聚集在一起。醫濟學甲的成員全部都是義工，沒有專職的行政人員，因此每位捐款者所捐的每一分錢，都能夠直接幫助需要的人們。
@@ -142,8 +156,7 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 
 </html>
