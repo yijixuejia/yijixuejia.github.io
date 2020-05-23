@@ -269,63 +269,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Block Section
---------------------------------------------------------------*/
-#block{
-  background-color: rgba(153, 230, 77, 0.8);
-  color: #fff;
-}
-
-.code span{
-  color: #333;
-  font-weight: 600;
-}
-
-.box {
-  padding-top: 10px;
-  cursor: default;
-}
-
-.box span{
-  display: block;
-  width: 60px;
-  height: 60px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30x;
-  border-radius: 30px;
-  text-align: center;
-  background: #555;
-  font-size: 28px;
-  color: #fff;
-  font-weight: 600;
-  margin: 10px 0;
-  padding: 10px 0;
-}
-
-.box p{
-  color: #333;
-}
-
-.box:hover span{
-  background: #ff4d40;
-}
-
-.box:hover p{
-  color: #ff4d40;
-}
-
-#block h2 span{
-  display: block;
-  float: right;
-  font-size: 1.5rem;
-  padding-top: 0.5rem;
-}
-
-/*--------------------------------------------------------------
 # Banners Section
 --------------------------------------------------------------*/
 #banners {
-  background-color: #eee;
+  background-color: #F0FFF0;
   color:#fff;
   text-align:center;
   font-weight: 600;
@@ -358,14 +305,13 @@ section {
 /*--------------------------------------------------------------
 # Content Section
 --------------------------------------------------------------*/
-
 #content {
-  background-color: #eee;
+  background-color: #F0FFF0;
   color:#555;
 }
 
 #content h3 {
-  color: rgba(153, 230, 77, 1);
+  color: rgba(54, 191, 54, 1);
   padding-bottom: 0.5rem;
 }
 
@@ -387,7 +333,7 @@ section {
   display: block;
   width: 100px;
   text-decoration: none;
-  background: rgba(153, 230, 77, 1);
+  background: rgba(54, 191, 54, 1);
   font-weight: 500;
   text-align: center;
   -webkit-transition: all .3s ease-in-out;
@@ -396,7 +342,7 @@ section {
 }
 
 .more:hover {
-  background: rgba(153, 230, 77, 0.8);
+  background: rgba(54, 191, 54, 0.8);
   color: #fff;
   font-weight: 500;
 }
@@ -465,20 +411,43 @@ ul.social li{
   margin-right:10px;
 }
 
-#content ul.social li img{
+ul.social li img{
  -webkit-filter: brightness(0);
 }
 
+ul.social li img:hover{
+ -webkit-filter: brightness(0.4);
+}
+
+
+#content ul.social li img{
+ -webkit-filter: brightness(0);
+}
 
 #content ul.social li img:hover{
  -webkit-filter: brightness(0.4);
 }
 
 /*--------------------------------------------------------------
+# Block Section
+--------------------------------------------------------------*/
+#block{
+  background-color: rgba(153, 230, 77, 0.8);
+  color: rgba(0, 100, 0, 1);
+}
+
+#block h2 span{
+  display: block;
+  float: right;
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer{
-  color: #fff;
   background-color: rgba(153, 230, 77, 0.8);
+  color: rgba(0, 100, 0, 1);
 }
 
