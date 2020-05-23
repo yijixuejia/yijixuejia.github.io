@@ -70,7 +70,7 @@ section {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  background-color: rgba(54, 191, 54, 0.8);
+  background-color: rgba(153, 230, 77, 0.8);
   border-left: 1px #eee solid;
 }
 
@@ -86,12 +86,12 @@ section {
 
 .nav-menu li a:hover, 
 .nav-menu li a:focus {
-  background-color: rgba(54, 191, 54, 1);
+  background-color: rgba(153, 230, 77, 1);
   transition: all 0.5s;
 }
 
 .nav-menu .active {
-  background-color: rgba(54, 191, 54, 1);
+  background-color: rgba(153, 230, 77, 1);
 }
 
 .navbar-toggler {
@@ -108,7 +108,7 @@ section {
     max-height: 2.5rem;
   } 
   nav {
-  background-color: rgba(54, 191, 54, 0.8);
+  background-color: rgba(153, 230, 77, 0.8);
   }
   
   .nav-menu > ul > li {
@@ -237,7 +237,7 @@ section {
 #slider .carousel-indicators li:hover,
 #slider .carousel-indicators li.active {
   opacity: 1;
-  background: rgba(54, 191, 54, 1);
+  background: rgba(153, 230, 77, 1);
 }
 
 
@@ -272,7 +272,7 @@ section {
 # Block Section
 --------------------------------------------------------------*/
 #block{
-  background-color: rgba(54, 191, 54, 0.8);
+  background-color: rgba(153, 230, 77, 0.8);
   color: #fff;
 }
 
@@ -365,7 +365,7 @@ section {
 }
 
 #content h3 {
-  color: rgba(54, 191, 54, 1);
+  color: rgba(153, 230, 77, 1);
   padding-bottom: 0.5rem;
 }
 
@@ -387,7 +387,7 @@ section {
   display: block;
   width: 100px;
   text-decoration: none;
-  background: rgba(54, 191, 54, 1);
+  background: rgba(153, 230, 77, 1);
   font-weight: 500;
   text-align: center;
   -webkit-transition: all .3s ease-in-out;
@@ -396,7 +396,7 @@ section {
 }
 
 .more:hover {
-  background: rgba(54, 191, 54, 0.8);
+  background: rgba(153, 230, 77, 0.8);
   color: #fff;
   font-weight: 500;
 }
@@ -419,13 +419,13 @@ section {
   font-size: 24px;
   width: 40px;
   height: 40px;
-  background: rgba(54, 191, 54, 1);
+  background: rgba(153, 230, 77, 1);
   color: #fff;
   transition: all 0.3s;
 }
 
 .back-to-top i:hover {
-  background: rgba(54, 191, 54, 0.8);
+  background: rgba(153, 230, 77, 0.8);
   color: #fff;
 }
 
@@ -479,6 +479,6 @@ ul.social li{
 --------------------------------------------------------------*/
 #footer{
   color: #fff;
-  background-color: rgba(54, 191, 54, 0.8);
+  background-color: rgba(153, 230, 77, 0.8);
 }
 
