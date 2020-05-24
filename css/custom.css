@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #F0FFF0;
+  background-color: #D2E6E9;
   color: #fff;
   font-family: Microsoft JhengHei, sans-serif;
 }
@@ -63,7 +63,7 @@ section {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  background-color: rgba(153, 230, 77, 0.8);
+  background-color: rgba(132, 166, 105, 0.8);
   border-left: 1px #fff solid;
 }
 
@@ -71,14 +71,14 @@ section {
   display: block;
   position: relative;
   height: 100%;
-  color: rgba(0, 100, 0, 1);
+  color: #FFF;
   font-weight: 600;
   padding: 1rem 2rem;
 }
 
 .nav-menu li a:hover,
 .nav-menu li.active a {
-  background-image: linear-gradient(to bottom right, rgba(153, 230, 77, 1), rgba(54, 191, 54, 1));
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
   color: #fff;
 }
 
@@ -241,7 +241,6 @@ section {
 # Banners Section
 --------------------------------------------------------------*/
 #banners {
-  background-color: #F0FFF0;
   color:#fff;
   text-align:center;
   font-weight: 600;
@@ -276,12 +275,11 @@ section {
 # Content Section
 --------------------------------------------------------------*/
 #content {
-  background-color: #F0FFF0;
   color:#555;
 }
 
 #content h3 {
-  color: rgba(0, 100, 0, 1);
+  color: #0fa358;
   padding-bottom: 0.8rem;
 }
 
@@ -296,7 +294,7 @@ section {
 }
 
 #content span {
-  color: rgba(0, 100, 0, 1);
+  color: #0fa358;
   font-weight: 600;
 }
 
@@ -308,7 +306,7 @@ section {
   width: 6rem;
   text-decoration: none;
   border-radius: 0.25rem;
-  background-image: linear-gradient(to bottom right, rgba(153, 230, 77, 1), rgba(54, 191, 54, 1));
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
   text-align: center;
   font-weight: 600;
 }
@@ -343,7 +341,7 @@ section {
 }
 
 .back-to-top i:hover {
-  background-image: linear-gradient(to bottom right, rgba(153, 230, 77, 1), rgba(54, 191, 54, 1));
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
   color: #fff;
 }
 
@@ -395,7 +393,7 @@ ul.social li{
 # Footer
 --------------------------------------------------------------*/
 #footer{
-  background-color: rgba(153, 230, 77, 0.8);
-  color: rgba(0, 100, 0, 1);
+  background-color: #84A669;
+  color: #F2F2F2;
 }
 
