@@ -17,7 +17,7 @@ h4 {
 
 a:hover {
   text-decoration: none;
-  color: #f3eae5;
+  color: #fff;
 }
 
 section {
@@ -64,14 +64,14 @@ section {
   position: relative;
   white-space: nowrap;
   background-color: rgba(132, 166, 105, 0.8);
-  border-left: 1px #f3eae5 solid;
+  border-left: 1px #fff solid;
 }
 
 .nav-menu li a {
   display: block;
   position: relative;
   height: 100%;
-  color: #f3eae5;
+  color: #fff;
   font-weight: 600;
   padding: 1rem 2rem;
 }
@@ -79,7 +79,7 @@ section {
 .nav-menu li a:hover,
 .nav-menu li.active a {
   background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
-  color: #f3eae5;
+  color: #fff;
 }
 
 .navbar-toggler {
@@ -108,8 +108,8 @@ section {
   .nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
-    border-left: 0px #f3eae5 solid;
-    border-top: 1px #f3eae5 solid;
+    border-left: 0px #fff solid;
+    border-top: 1px #fff solid;
   }
 }
 
@@ -192,12 +192,12 @@ section {
 
 #slider .carousel-indicators li {
   cursor: pointer;
-  background: #f3eae5;
+  background: #fff;
   overflow: hidden;
   border: 0;
   width: 20px;
   height: 20px;
-  border: 2px #f3eae5 solid;
+  border: 2px #fff solid;
   border-radius: 20px;
   opacity: .8;
 }
@@ -239,7 +239,7 @@ section {
 # Banners Section
 --------------------------------------------------------------*/
 #banners {
-  color:#f3eae5;
+  color:#fff;
   text-align:center;
   font-weight: 600;
 }
@@ -297,7 +297,7 @@ section {
 }
 
 .more {
-  color: #f3eae5;
+  color: #fff;
   text-transform: uppercase;
   line-height: 2.5rem;
   display: block;
@@ -311,7 +311,7 @@ section {
 
 .more:hover {
   background-image: linear-gradient(to bottom right, rgba(188, 147, 57, 1), rgba(120, 74, 59, 1));
-  color: #f3eae5;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -335,12 +335,12 @@ section {
   height: 2.5rem;
   border-radius: 0.25rem;
   background: rgba(132, 166, 105, 0.8);
-  color: #f3eae5;
+  color: #fff;
 }
 
 .back-to-top i:hover {
   background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
-  color: #f3eae5;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -348,7 +348,7 @@ section {
 --------------------------------------------------------------*/
 .photo {
   border: 2px #ccc solid;
-  background: #f3eae5;
+  background: #fff;
   padding: 0.2rem;
   margin-top: 0.5rem;
 }
@@ -392,6 +392,6 @@ ul.social li{
 --------------------------------------------------------------*/
 #footer{
   background-color: #84A669;
-  color: #f3eae5;
+  color: #fff;
 }
 
