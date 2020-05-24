@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 body {
   background-color: #f3eae5;
-  color: #f3eae5;
+  color: #fff;
   font-family: Microsoft JhengHei, sans-serif;
 }
 
@@ -97,19 +97,17 @@ section {
   } 
   
   nav {
-    background-color: rgba(153, 230, 77, 0.8);
+    background-color: rgba(132, 166, 105, 0.8);
   }
   
   .nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
-    background-color: rgba(255, 255, 255, 0.1);
   }
   
   .nav-menu > ul > li {
     position: relative;
     white-space: nowrap;
-    background-color: rgba(153, 230, 77, 0.8);
     border-left: 0px #f3eae5 solid;
     border-top: 1px #f3eae5 solid;
   }
@@ -156,7 +154,7 @@ section {
 
 #slider .container {
   text-align: center;
-  color: #f3eae5;
+  color: #fff;
   margin-bottom: 20px;
   font-weight: 800;
   text-shadow:2px 2px 10px #000;
