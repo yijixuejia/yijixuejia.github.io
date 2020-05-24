@@ -334,13 +334,12 @@ section {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.25rem;
-  background: rgba(132, 166, 105, 0.8);
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
   color: #fff;
 }
 
 .back-to-top i:hover {
-  background: rgba(132, 166, 105, 0.8);
-  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
+  background-image: linear-gradient(to bottom right, rgba(188, 147, 57, 1), rgba(120, 74, 59, 1));
   color: #fff;
 }
 
