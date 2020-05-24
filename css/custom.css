@@ -2,8 +2,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #D2E6E9;
-  color: #fff;
+  background-color: #f3eae5;
+  color: #f3eae5;
   font-family: Microsoft JhengHei, sans-serif;
 }
 
@@ -17,7 +17,7 @@ h4 {
 
 a:hover {
   text-decoration: none;
-  color: #fff;
+  color: #f3eae5;
 }
 
 section {
@@ -64,22 +64,22 @@ section {
   position: relative;
   white-space: nowrap;
   background-color: rgba(132, 166, 105, 0.8);
-  border-left: 1px #fff solid;
+  border-left: 1px #f3eae5 solid;
 }
 
 .nav-menu li a {
   display: block;
   position: relative;
   height: 100%;
-  color: #FFF;
+  color: #f3eae5;
   font-weight: 600;
   padding: 1rem 2rem;
 }
 
 .nav-menu li a:hover,
 .nav-menu li.active a {
-  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
-  color: #fff;
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
+  color: #f3eae5;
 }
 
 .navbar-toggler {
@@ -110,8 +110,8 @@ section {
     position: relative;
     white-space: nowrap;
     background-color: rgba(153, 230, 77, 0.8);
-    border-left: 0px #fff solid;
-    border-top: 1px #fff solid;
+    border-left: 0px #f3eae5 solid;
+    border-top: 1px #f3eae5 solid;
   }
 }
 
@@ -156,7 +156,7 @@ section {
 
 #slider .container {
   text-align: center;
-  color: #fff;
+  color: #f3eae5;
   margin-bottom: 20px;
   font-weight: 800;
   text-shadow:2px 2px 10px #000;
@@ -194,12 +194,12 @@ section {
 
 #slider .carousel-indicators li {
   cursor: pointer;
-  background: #fff;
+  background: #f3eae5;
   overflow: hidden;
   border: 0;
   width: 20px;
   height: 20px;
-  border: 2px #fff solid;
+  border: 2px #f3eae5 solid;
   border-radius: 20px;
   opacity: .8;
 }
@@ -241,7 +241,7 @@ section {
 # Banners Section
 --------------------------------------------------------------*/
 #banners {
-  color:#fff;
+  color:#f3eae5;
   text-align:center;
   font-weight: 600;
 }
@@ -279,7 +279,7 @@ section {
 }
 
 #content h3 {
-  color: #0fa358;
+  color: #784a3b;
   padding-bottom: 0.8rem;
 }
 
@@ -294,26 +294,26 @@ section {
 }
 
 #content span {
-  color: #0fa358;
+  color: #84A669;
   font-weight: 600;
 }
 
 .more {
-  color: #fff;
+  color: #f3eae5;
   text-transform: uppercase;
   line-height: 2.5rem;
   display: block;
   width: 6rem;
   text-decoration: none;
   border-radius: 0.25rem;
-  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
   text-align: center;
   font-weight: 600;
 }
 
 .more:hover {
-  background-image: linear-gradient(to bottom right, rgba(54, 191, 54, 1), rgba(0, 100, 0, 1));
-  color: #fff;
+  background-image: linear-gradient(to bottom right, rgba(188, 147, 57, 1), rgba(120, 74, 59, 1));
+  color: #f3eae5;
   font-weight: 600;
 }
 
@@ -336,13 +336,13 @@ section {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.25rem;
-  background: rgba(153, 230, 77, 0.8);
-  color: #fff;
+  background: rgba(132, 166, 105, 0.8);
+  color: #f3eae5;
 }
 
 .back-to-top i:hover {
-  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(128, 168, 105, 1));
-  color: #fff;
+  background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
+  color: #f3eae5;
 }
 
 /*--------------------------------------------------------------
@@ -350,7 +350,7 @@ section {
 --------------------------------------------------------------*/
 .photo {
   border: 2px #ccc solid;
-  background: #fff;
+  background: #f3eae5;
   padding: 0.2rem;
   margin-top: 0.5rem;
 }
@@ -394,6 +394,6 @@ ul.social li{
 --------------------------------------------------------------*/
 #footer{
   background-color: #84A669;
-  color: #F2F2F2;
+  color: #f3eae5;
 }
 
