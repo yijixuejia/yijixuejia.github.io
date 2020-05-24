@@ -339,6 +339,7 @@ section {
 }
 
 .back-to-top i:hover {
+  background: rgba(132, 166, 105, 0.8);
   background-image: linear-gradient(to bottom right, rgba(143, 187, 117, 1), rgba(93, 116, 67, 1));
   color: #fff;
 }
