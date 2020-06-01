@@ -98,6 +98,7 @@ section {
   
   nav {
     background-color: rgba(132, 166, 105, 0.8);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
   }
   
   .nav-menu > ul > li {
